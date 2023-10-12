@@ -229,6 +229,61 @@ section.sobre .flex {
 
 
 
+/* CORPO DO SITE - Formulário Contato */
+
+section.form-contato {
+    padding: 80px 4%;
+}
+
+form {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background: #fff4dc;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #0b152e;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: #ada494;
+}
+
+form .button-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .button-enviar input[type=submit] {
+    width: 120px;
+    background-color: #eca400;
+    color: #0b152e;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+form .button-enviar input[type=submit]:hover {
+    box-shadow: 0px 0px 7px #eca400;
+    transform: scale(1.07);
+}
+
 /* CORPO DO SITE - Equipe */
 
 .equipe {
